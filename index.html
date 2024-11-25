@@ -60,62 +60,79 @@
             </div>
             <div id="details">
                 <h2>Details</h2>
-                <dt>Prep Time: </dt> <dd>10 minutes</dd><br>
-                <dt>Cook Time: </dt> <dd> 10 minutes</dd><br>
-                <dt>Total Time: </dt> <dd>20 minutes</dd><br>
-                <dt>Author: </dt> <dd> Taco Cheesington</dd><br>
-                <dt>Servings: </dt> <dd> 6 Tacos</dd><br>
+                <div id="details-container">
+                    <div class="detail">
+                        <dt>Prep Time: </dt> <dd>10 minutes</dd>
+                    </div>
+                    <div class="detail">
+                        <dt>Cook Time: </dt> <dd> 10 minutes</dd>
+                    </div>
+                    <div class="detail">
+                        <dt>Total Time: </dt> <dd>20 minutes</dd>
+                    </div>
+                    <div class="detail">
+                        <dt>Author: </dt> <dd> Taco Cheesington</dd>
+                    </div>
+                    <div class="detail">
+                        <dt>Servings: </dt> <dd> 6 Tacos</dd>
+                    </div>
+                </div>
+
             </div>
-            <div id="ingredients">
-                <h2>Ingredients</h2>
-                <ul>
-                    <li>Flank steak</li>
-                    <li>Soy Sauce</li>
-                    <li>Worcestershire sauce</li>
-                    <li>Lime</li>
-                    <li>Minced garlic</li>
-                    <li>Cilantro</li>
-                    <li>Chili powder</li>
-                    <li>Cumin</li>
-                    <li>Salt</li>
-                    <li>Pepper</li>
-                    <li>Corn tortillas</li>
-                </ul>
-            </div>
-            <div id="directions">
-                <h2>Directions</h2>
-                <ol>
-                    <li>Cut and mix: Cut the flank steak into one inch pieces. In a medium sized bowl add the soy sauce, Worcestershire, juice from one lime, cilantro, chili powder, cumin, and salt and pepper.</li>
-                    <li>Marinate: Add the steak and let marinate in the fridge for 1-2 hours.</li>
-                    <li>Cook the meat: Heat a medium sized skillet to medium high heat. Add the steak and marinade and cook for about 5-7 minutes or until no longer pink.</li>
-                    <li>Add toppings: Put the steak in the center of your tortilla with desired toppings.</li>
-                </ol>
+            <div id="ingredients-and-directions">
+                <div id="ingredients">
+                    <h2>Ingredients</h2>
+                    <ul>
+                        <li>Flank steak</li>
+                        <li>Soy Sauce</li>
+                        <li>Worcestershire sauce</li>
+                        <li>Lime</li>
+                        <li>Minced garlic</li>
+                        <li>Cilantro</li>
+                        <li>Chili powder</li>
+                        <li>Cumin</li>
+                        <li>Salt</li>
+                        <li>Pepper</li>
+                        <li>Corn tortillas</li>
+                    </ul>
+                </div>
+                <div id="directions">
+                    <h2>Directions</h2>
+                    <ol>
+                        <li>Cut and mix: Cut the flank steak into one inch pieces. In a medium sized bowl add the soy sauce, Worcestershire, juice from one lime, cilantro, chili powder, cumin, and salt and pepper.</li>
+                        <li>Marinate: Add the steak and let marinate in the fridge for 1-2 hours.</li>
+                        <li>Cook the meat: Heat a medium sized skillet to medium high heat. Add the steak and marinade and cook for about 5-7 minutes or until no longer pink.</li>
+                        <li>Add toppings: Put the steak in the center of your tortilla with desired toppings.</li>
+                    </ol>
+                </div>
             </div>
             <section id="side-dishes">
                 <h2>Need some side dishes?</h2>
-                <div class="dish">
-                    <h3>Mexican Rice</h3>
-                    (mexican-rice.png)
-                    <p>Traditional recipe with a twist.</p>
-                    Rating: 4 of 5 Stars 
-                </div>
-                <div class="dish">
-                    <h3>Salsa</h3>
-                    (salsa.png)
-                    <p>Just the right amount of spice.</p>
-                    Rating: 5 of 5 Stars 
-                </div>
-                <div class="dish">
-                    <h3>Guacamole</h3>
-                    (guacamole.png)
-                    <p>Fresh and healthy.</p>
-                    Rating: 4 of 5 Stars 
-                </div>
-                <div class="dish">
-                    <h3>Tortillas</h3>
-                    (tortillas.png)
-                    <p>Easy to make and so good. </p>
-                    Rating: 4 of 5 Stars 
+                <div id="dishes-container">
+                    <div class="dish">
+                        <h3>Mexican Rice</h3>
+                        <img src="./images/mexican-rice.png" alt="mexican rice">
+                        <p>Traditional recipe with a twist.</p>
+                        <p>Rating: 4 of 5 Stars </p>
+                    </div>
+                    <div class="dish">
+                        <h3>Salsa</h3>
+                        <img src="./images/salsa.png" alt="salsa">
+                        <p>Just the right amount of spice.</p>
+                        <p>Rating: 5 of 5 Stars </p>
+                    </div>
+                    <div class="dish">
+                        <h3>Guacamole</h3>
+                        <img src="./images/guacamole.png" alt="guacamole">
+                        <p>Fresh and healthy.</p>
+                        <p>Rating: 4 of 5 Stars </p>
+                    </div>
+                    <div class="dish">
+                        <h3>Tortillas</h3>
+                        <img src="./images/tortillas.png" alt="tortillas">
+                        <p>Easy to make and so good. </p>
+                        <p>Rating: 4 of 5 Stars </p>
+                    </div>
                 </div>
             </section>
             <nav>
@@ -129,8 +146,8 @@
             Desserts (desserts.png)
             Beverages (beverages.png)
             (avatar svg)
-            </nav>
             Search (search svg)
+            </nav>
             
         </main>
         <footer>
@@ -169,14 +186,14 @@
                     </li>
                 </ul>
             </div>
-            Good Eats
             <div id="copyright">
-                <p>Copyright 2022</p>
-                <p>Taco Cheesington</p>
-            </div>
-            <div class="image-container">
-                <img src="./images/taco-cheesington.png">
-            </div>
+                <div>
+                Copyright 2022
+                Taco Cheesington
+                </div>
+                <div class="image-container">
+                    <img src="./images/taco-cheesington.png">
+                </div>
         </footer>
     </body>
    
