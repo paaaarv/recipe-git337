@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    min-width: 414px;
+    margin: 0;
+    width: 100%;
+    margin-top: 100px;
+}
+h1{
+    font-family: "Bebas Neue", serif;
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    font-family: "Bebas Neue", serif;
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    font-family: "Bebas Neue", serif;
+    font-size: 25px;
+}
+nav a{
+    font-family: "Bebas Neue", serif;
+    font-size: 20px;
+}
+footer{
+    font-family: "Bebas Neue", serif;
+    font-size: 20px;
+}
+
+p, dd, li, nav, input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+dt{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: inline; 
+}
+dd{
+    display: inline;
+}
+nav{
+    position: absolute;
+    top: 0;
+    margin-bottom: 10px;
+}
+#svg-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button h3{
+    color:#EB5428;
+    margin-top: 0;
+}
+#taco-image{
+    width: 100%;
+}
+#taco-image img{
+    width: inherit;
+}
+.image-container{
+    width: 100%;
+    text-align: center;
+}
+.image-container img{
+    width: 50%;
+}
+#side-dishes{
+    background-color: #7ABFBF;
+    color: #0D0D0D;
+    margin: 5px 0;
+}
+
+#social ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left:0;
+}
+#social p{
+    color: #EB5428;
+    font-family: 'Bebas Neue', serif;
+}
+#copyright{
+    text-align: center;
+}
